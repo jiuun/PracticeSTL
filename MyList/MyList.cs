@@ -6,6 +6,7 @@ namespace MyList
     {
         public int num { get; set; }
     }
+
     public class MyList
     {
         private const int DEFAULT_CAPACITY = 4;

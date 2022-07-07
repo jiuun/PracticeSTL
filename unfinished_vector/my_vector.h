@@ -22,7 +22,7 @@ public:
 	// Capacity
 	bool empty();
 	int size();
-	void reserve();
+	void reserve(int count);
 	int capacity();
 
 	// Modifiers

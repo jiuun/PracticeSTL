@@ -2,9 +2,9 @@
 #include "unfinished_vector.h"
 
 
-unfinished_vector::unfinished_vector() :
-	mCount(0)
+unfinished_vector::unfinished_vector()
 {
+	mCount = 0;
 	mData = new int[CAPACITY + 1];
 }
 
